@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix"
+  },
+  "devDependencies": {
+    "cypress": "^12.5.1",
+    "cypress-mailosaur": "^2.13.0",
+    "eslint": "^8.33.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "faker": "^5.5.3"
+  }
+}
